@@ -1,0 +1,31 @@
+{
+  "name": "faceguard_v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/face_detection": "^0.4.1646425229",
+    "axios": "^1.15.2",
+    "clsx": "^2.1.1",
+    "cookie": "^1.1.1",
+    "framer-motion": "^12.38.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4"
+  }
+}
